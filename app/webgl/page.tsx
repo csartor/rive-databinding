@@ -1,8 +1,8 @@
 'use client'
-import * as rive from "@rive-app/canvas";
+import * as rive from "@rive-app/webgl2";
 import { useEffect, useRef, useState } from 'react';
 
-export default function Home() {
+export default function Page() {
   const [riveLoaded, setRiveLoaded] = useState(false);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const riveRef = useRef<rive.Rive | null>(null);
