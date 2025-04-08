@@ -1,9 +1,8 @@
 'use client'
 import * as rive from "@rive-app/canvas";
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 
 export default function Home() {
-  const [riveLoaded, setRiveLoaded] = useState(false);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const riveRef = useRef<rive.Rive | null>(null);
 
@@ -21,7 +20,6 @@ export default function Home() {
           fit: rive.Fit.Layout,
         }),
         onLoad: () => {
-          setRiveLoaded(true);
 
           const globalsInstance = riveRef.current?.viewModelInstance
           const enums = riveRef.current?.enums()
