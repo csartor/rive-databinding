@@ -1,0 +1,45 @@
+[
+    {
+        "id32": 1041439405,
+        "progress": [
+            4
+        ],
+        "expiresIn": 74796,
+        "setting": {
+            "type": 4,
+            "overrideTitle": "MAJOR ORDER",
+            "overrideBrief": "Defend against the opportunistic and barbaric Automaton assault.",
+            "taskDescription": "",
+            "tasks": [
+                {
+                    "type": 12,
+                    "values": [
+                        5,
+                        3,
+                        0,
+                        0
+                    ],
+                    "valueTypes": [
+                        3,
+                        1,
+                        11,
+                        12
+                    ]
+                }
+            ],
+            "rewards": [
+                {
+                    "type": 1,
+                    "id32": 897894480,
+                    "amount": 40
+                }
+            ],
+            "reward": {
+                "type": 1,
+                "id32": 897894480,
+                "amount": 40
+            },
+            "flags": 0
+        }
+    }
+]
